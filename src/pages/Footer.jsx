@@ -19,13 +19,13 @@ export default () => {
         }
     ]
     return (
-        <footer className="pt-10">
+        <footer className="pt-10 bg-slate-400">
             <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
                 <div className="justify-between sm:flex">
                     <div className="space-y-6">
                         <img src="/logo.svg" className="w-32" />
                         <p className="max-w-md">
-                            Nulla auctor metus vitae lectus iaculis, vel euismod massa efficitur.
+                            We can enter random text here in the footer component, this is cool.
                         </p>
                         <ul className="flex flex-wrap items-center gap-4 text-sm sm:text-base">
                             {
@@ -52,7 +52,7 @@ export default () => {
                     </div>
                 </div>
                 <div className="mt-10 py-10 border-t md:text-center">
-                    <p>© 2022 Float UI Inc. All rights reserved.</p>
+                    <p>© 2023 Jurident Inc. All rights reserved.</p>
                 </div>
             </div>
         </footer>

@@ -9,9 +9,9 @@ export default function Navbar() {
       {/* the right side of the navbar */}
       <div className="flex items-center justify-between w-full p-4 bg-[#050125]">
         <img src="/logo.svg" alt="Startup Logo" width={150} height={220} className="ml-24"  />
-        <h1 className="text-4xl font-bold ml-[600px] text-white">Jurident</h1>
+        <h1 className="text-4xl font-bold text-white">Jurident</h1>
         <div className="flex items-center space-x-4">
-          <Link href="/contact-us" legacyBehavior>
+          <Link href="/contactus" legacyBehavior>
             <a className="p-2">Contact Us</a>
           </Link>
           <Link href="/about" legacyBehavior>
@@ -26,10 +26,10 @@ export default function Navbar() {
       {/* the left side of the navbar */}
       <div className="flex flex-col w-full h-screen">
         <button
-          className="absolute top-0 left-0 p-4 text-white bg-blue-500 transition-all duration-500 ease-in-out"
+          className="absolute top-0 left-0 p-4 text-white bg-blue-500 transition-all duration-500 ease-in-out mt-10"
           onClick={() => setIsOpen(!isOpen)}
         >
-          <img src="/info.png" alt="logo" width="40" />
+          <img src="/ham.svg" alt="logo" width="40" />
         </button>
         {isOpen && (
           <nav className="flex flex-col items-center justify-center w-full md:w-64 h-full p-4 bg-[#050125c4]">
