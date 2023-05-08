@@ -36,10 +36,10 @@ export default function Navbar() {
             <Link href="/" legacyBehavior>
               <a className="my-2 p-2">Home</a>
             </Link>
-            <Link href="/top-stories" legacyBehavior>
+            <Link href="/top_stories" legacyBehavior>
               <a className="my-2 p-2">Top Stories</a>
             </Link>
-            <Link href="/news-updates" legacyBehavior>
+            <Link href="/news_updates" legacyBehavior>
               <a className="my-2 p-2">News Updates</a>
             </Link>
             <Link href="/rti" legacyBehavior>

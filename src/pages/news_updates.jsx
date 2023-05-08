@@ -1,11 +1,11 @@
 import React from 'react'
 
-const about = () => {
+const news_updates = () => {
   return (
     <div className='text-red-500 text-center mt-56 text-6xl'>
-      This is the About page
-    </div>  
+      This is the news update page
+    </div>
   )
 }
 
-export default about
+export default news_updates
